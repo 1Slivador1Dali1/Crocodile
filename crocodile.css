@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    background-color: rgb(50, 240, 176);
+}
+
+.container {
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    background: #f0efef;
+    border-radius: 50px;
+    padding: 40px 100px 40px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.crocodile-img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: rgba(60, 160, 127, 0.747);
+
+}
+
+.word {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.word p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: rgb(41, 155, 155);
+}
+
+.button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    background: rgba(60, 160, 127, 0.747);
+    color: #f0efef;
+    cursor: pointer;
+}
